@@ -1,0 +1,21 @@
+# Go build output
+/loadgen/loadgen
+*.exe
+*.test
+*.out
+/bin/
+
+# Go workspace / tooling
+go.work
+go.work.sum
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
